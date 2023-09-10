@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+//find a number
+        int[] numbers = new int[]{1,2,5,7,9,0};
+        int numberFind = 7;
+
+        boolean isNumberExist=false;
+        for (int number : numbers){
+            if (number==numberFind){
+                isNumberExist = true;
+                break;
+
+            }
+        }
+        if (isNumberExist){
+            System.out.println("number exists.");
+        }else {
+            System.out.println("number not exists.");
+        }
+
+
+
+    }
+}
